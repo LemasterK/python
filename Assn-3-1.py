@@ -2,7 +2,7 @@ inp = raw_input("Enter Hours: ")
 hours = float(inp)
 inp = raw_input("Enter Rate: ")
 rate = float(inp)
-#calculate pay
+# calculate pay
 if hours <= 40 :
     pay = rate * hours
 else :
